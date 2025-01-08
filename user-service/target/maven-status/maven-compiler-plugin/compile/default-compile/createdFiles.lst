@@ -1,0 +1,5 @@
+services\user\model\User.class
+services\user\service\UserService.class
+services\user\UserApplication.class
+services\user\controller\UserController.class
+services\user\repository\UserRepository.class

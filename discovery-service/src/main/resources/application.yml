@@ -9,3 +9,15 @@ spring:
     name: discovery-service
   config:
     import: "optional:configserver:http://localhost:8088"
+
+server:
+  port: ${PORT:8761}
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    enableSelfPreservation: false
