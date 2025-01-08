@@ -1,2 +1,62 @@
-/.project
+# Build directories
+/target/
+/build/
+
+# IDE-specific files
+/.idea/
+/*.iml
+/.vscode/
+
+# Maven files
+/.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.properties
+
+# Gradle files
+.gradle/
+/gradle-wrapper.jar
+/gradle-wrapper.properties
+
+# Logs
+/logs/
+/*.log
+
+# Spring Boot specific files
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.tar
+*.gz
+
+# Java class files
+*.class
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDE files
 /.settings/
+/.classpath
+/.project
+/.metadata/
+
+# Local configuration files
+/application-local.yml
+/application-dev.yml
+/application-prod.yml
+
+# Test output
+/test-output/
+/surefire-reports/
+/target/surefire-reports/
+/target/failsafe-reports/
+
+# Coverage reports
+/target/site/
